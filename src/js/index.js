@@ -37,7 +37,7 @@ function validationForm() {
   password = document.forms["myForm"]["fPassoword"].value; //pobiera hasło z formularza
   let terms = document.forms["myForm"]["checkTerms"].checked; //pobiera czy zaznaczono warunki pola wyboru
   if (eMail === "" || password === "") {
-    //jesli hasło i e-mail puste pokazuję alert
+    //jesli hasło lub e-mail puste pokazuję alert
     alert("Enter E-mail and Password!");
   } else if (!terms) {
     //jesli warunki nie zaznaczone pokazuję alert
