@@ -1,0 +1,40 @@
+{
+  "name": "zadanie",
+  "version": "1.0.0",
+  "description": "Recruitment test for frontend internship.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtua-digital/frontend-internship-test.git"
+  },
+  "author": "Virtua",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-scss-lint": "^1.0.0",
+    "gulp-uglify": "^3.0.1",
+    "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/virtua-digital/frontend-internship-test/issues"
+  },
+  "homepage": "https://github.com/virtua-digital/frontend-internship-test#readme",
+  "keywords": [
+    "zadanie"
+  ]
+}
